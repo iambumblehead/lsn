@@ -1,0 +1,18 @@
+{
+  "name": "lsn",
+  "version": "0.0.2",
+  "readmeFilename": "README.md",
+  "license" : "MIT",
+  "description": "Add and remove listener events on elements in the document.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/lsn.git"
+  },
+  "keywords": [
+    "listener",
+    "button",
+    "click",
+    "addEventListener",
+    "attachEvent"
+  ]
+}

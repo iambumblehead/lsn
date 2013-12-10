@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/duko/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz
+12 verbose folder .
+13 info prepublish listener@0.0.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/duko/.npm/1f1177db-tar.lock
+16 silly lockFile 3d01d829-47861-0-7025945165660232-tmp-tgz tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz
+17 verbose lock tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz /home/duko/.npm/3d01d829-47861-0-7025945165660232-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 3d01d829-47861-0-7025945165660232-tmp-tgz tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz
+21 silly lockFile 3d01d829-47861-0-7025945165660232-tmp-tgz tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz
+22 verbose tar unpack /home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz
+23 silly lockFile 0c71eebe-47861-0-7025945165660232-package tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package
+24 verbose lock tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package /home/duko/.npm/0c71eebe-47861-0-7025945165660232-package.lock
+25 silly lockFile 3d01d829-47861-0-7025945165660232-tmp-tgz tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz
+26 verbose lock tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz /home/duko/.npm/3d01d829-47861-0-7025945165660232-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry listener.js
+32 silly gunzTarPerm extractEntry MITLICENSE.txt
+33 silly gunzTarPerm extractEntry README.html
+34 silly gunzTarPerm extractEntry test/listenertest.js
+35 silly gunzTarPerm extractEntry test/index.html
+36 silly gunzTarPerm extractEntry test/listenertest.css
+37 silly lockFile 0c71eebe-47861-0-7025945165660232-package tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package
+38 silly lockFile 0c71eebe-47861-0-7025945165660232-package tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package
+39 silly lockFile 3d01d829-47861-0-7025945165660232-tmp-tgz tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz
+40 silly lockFile 3d01d829-47861-0-7025945165660232-tmp-tgz tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/tmp.tgz
+41 verbose tar pack [ '/home/duko/.npm/listener/0.0.2/package.tgz',
+41 verbose tar pack   '/home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package' ]
+42 verbose tarball /home/duko/.npm/listener/0.0.2/package.tgz
+43 verbose folder /home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package
+44 silly lockFile 0c71eebe-47861-0-7025945165660232-package tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package
+45 verbose lock tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package /home/duko/.npm/0c71eebe-47861-0-7025945165660232-package.lock
+46 silly lockFile 597ed709-o-npm-listener-0-0-2-package-tgz tar:///home/duko/.npm/listener/0.0.2/package.tgz
+47 verbose lock tar:///home/duko/.npm/listener/0.0.2/package.tgz /home/duko/.npm/597ed709-o-npm-listener-0-0-2-package-tgz.lock
+48 silly lockFile 0c71eebe-47861-0-7025945165660232-package tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package
+49 silly lockFile 0c71eebe-47861-0-7025945165660232-package tar:///home/duko/tmp/npm-31457-zN10Iqy-/1386658247861-0.7025945165660232/package
+50 silly lockFile 597ed709-o-npm-listener-0-0-2-package-tgz tar:///home/duko/.npm/listener/0.0.2/package.tgz
+51 silly lockFile 597ed709-o-npm-listener-0-0-2-package-tgz tar:///home/duko/.npm/listener/0.0.2/package.tgz
+52 silly lockFile fad2224a--duko-npm-listener-0-0-2-package /home/duko/.npm/listener/0.0.2/package
+53 verbose lock /home/duko/.npm/listener/0.0.2/package /home/duko/.npm/fad2224a--duko-npm-listener-0-0-2-package.lock
+54 silly lockFile fad2224a--duko-npm-listener-0-0-2-package /home/duko/.npm/listener/0.0.2/package
+55 silly lockFile fad2224a--duko-npm-listener-0-0-2-package /home/duko/.npm/listener/0.0.2/package
+56 verbose tar unpack /home/duko/.npm/listener/0.0.2/package.tgz
+57 silly lockFile 4cefac87--duko-npm-listener-0-0-2-package tar:///home/duko/.npm/listener/0.0.2/package
+58 verbose lock tar:///home/duko/.npm/listener/0.0.2/package /home/duko/.npm/4cefac87--duko-npm-listener-0-0-2-package.lock
+59 silly lockFile 597ed709-o-npm-listener-0-0-2-package-tgz tar:///home/duko/.npm/listener/0.0.2/package.tgz
+60 verbose lock tar:///home/duko/.npm/listener/0.0.2/package.tgz /home/duko/.npm/597ed709-o-npm-listener-0-0-2-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry listener.js
+66 silly gunzTarPerm extractEntry MITLICENSE.txt
+67 silly gunzTarPerm extractEntry README.html
+68 silly gunzTarPerm extractEntry test/listenertest.js
+69 silly gunzTarPerm extractEntry test/index.html
+70 silly gunzTarPerm extractEntry test/listenertest.css
+71 silly lockFile 4cefac87--duko-npm-listener-0-0-2-package tar:///home/duko/.npm/listener/0.0.2/package
+72 silly lockFile 4cefac87--duko-npm-listener-0-0-2-package tar:///home/duko/.npm/listener/0.0.2/package
+73 silly lockFile 597ed709-o-npm-listener-0-0-2-package-tgz tar:///home/duko/.npm/listener/0.0.2/package.tgz
+74 silly lockFile 597ed709-o-npm-listener-0-0-2-package-tgz tar:///home/duko/.npm/listener/0.0.2/package.tgz
+75 verbose chmod /home/duko/.npm/listener/0.0.2/package.tgz 644
+76 verbose chown /home/duko/.npm/listener/0.0.2/package.tgz [ 1000, 1000 ]
+77 silly lockFile 3a52ce78- .
+78 silly lockFile 3a52ce78- .
+79 silly publish { name: 'listener',
+79 silly publish   version: '0.0.2',
+79 silly publish   readmeFilename: 'README.html',
+79 silly publish   license: 'MIT',
+79 silly publish   description: 'Add and remove listener events on elements in the document.',
+79 silly publish   repository:
+79 silly publish    { type: 'git',
+79 silly publish      url: 'https://github.com/iambumblehead/listener.git' },
+79 silly publish   keywords:
+79 silly publish    [ 'listener',
+79 silly publish      'button',
+79 silly publish      'click',
+79 silly publish      'addEventListener',
+79 silly publish      'attachEvent' ],
+79 silly publish   readme: '<html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta charset="utf-8"></head><body><h1>listener</h1>\n<p><strong>(c)<a href="http://www.bumblehead.com" title="bumblehead">Bumblehead</a>, 2013</strong> <a href="#license">MIT-license</a>  </p>\n<h3>Overview:</h3>\n<p>Add and remove listeners to events on elements in the document.</p>\n<ul>\n<li>listener.add( <em>elem</em>, <em>event</em>, <em>fn</em> );</li>\n<li>listener.rm( <em>elem</em>, <em>event</em>, <em>fn</em> );</li>\n</ul>\n<hr>\n<h3>Caveats:</h3>\n<p>Research reveals problems with all listener-wrapper scripts available on the internet. None of them are perfect. <a href="http://msdn.microsoft.com/en-us/magazine/ff728624.aspx" title="msdn">The script demonstrated on msdn here</a> is the best one I&#39;ve seen. The &#39;terms and conditions&#39; around msdn&#39;s sample code, however, are prohibitive and the author has not released a public version of the samples.</p>\n<p><a href="http://www.cinsoft.net/host.html" title="david mark">David Mark</a> owns <a href="https://groups.google.com/forum/#!topic/comp.lang.javascript/NlgKScqVbiU">the best host method</a> checking techniques. This is his: <code>/^(?:function|object|unknown)$/.test(typeof object[methodname])</code>. I don&#39;t want to steal from David Mark so I don&#39;t feel OK using that to find if <code>addEventListener</code> is a method on a <code>document.documentElement</code>.</p>\n<p>One might consider using DOM0 &#39;onclick&#39;-style event listeners exclusively but not when seeing that it is <strong>dramtically slow</strong> <a href="https://groups.google.com/forum/#!topic/comp.lang.javascript/NlgKScqVbiU">compared to addEventListener</a>. Who wants slow response times for click events? not me.</p>\n<p>Due to the above considerations, this script only provides a primitive wrapper around <code>addEventListener</code> and <code>attachEvent</code>. You may want a more comprehensive solution. &#39;onclick&#39;-style event listeners are not supported. If <code>addEventListener</code> or <code>attachEvent</code> are not supported by the host environment this script <em>will not handle</em> the event for you -prepare your application to degrade nicely.</p>\n<p>Additionally:</p>\n<ol>\n<li>no support for &#39;capturing phase&#39; in IE (capturing an event: when an event is bubbling up, elements queued to &#39;capture&#39; the event will not fire once the event has been captured.)</li>\n<li>order of handler execution is inconsistent. most browsers will FIFO (first in first out), but mshtml will LIFO.</li>\n<li>error handling for events passed to certain objects is not anticipated. It may be OK to send these methods a window object or it may not be -no error handling for this.</li>\n<li>the <code>this</code> is not normailized in any way.</li>\n<li>no attempt is made to solve <em>your</em> memory leak issues.</li>\n</ol>\n<p>Because this script does not handle edge cases, it is small. It also memoizes the supported listener method which often makes it faster.</p>\n<hr>\n<h4><a id="install"></a>Install:</h4>\n<p>listener may be downloaded directly or installed through <code>npm</code>.</p>\n<ul>\n<li><p><strong>npm</strong>   </p>\n<pre><code class="lang-bash">$ npm install listener</code></pre>\n</li>\n<li><p><strong>Direct Download</strong></p>\n<pre><code class="lang-bash">$ git clone https://github.com/iambumblehead/listener.git</code></pre>\n</li>\n</ul>\n<hr>\n<h4><a id="test"></a>Test:</h4>\n<p>Tests are not automated and are performed by loading a document in the browser and using the browser console.</p>\n<ul>\n<li>load <code>test/index.html</code> in your browser and run tests from the console.</li>\n</ul>\n<hr>\n<h4><a id="license">License:</h4>\n<p> <img src="http://github.com/iambumblehead/scroungejs/raw/master/img/hand.png" alt="scrounge"> </p>\n<p>(The MIT License)</p>\n<p>Copyright (c) 2013 <a href="http://www.bumblehead.com" title="bumblehead">Bumblehead</a> <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#111;&#x3a;&#99;&#104;&#x72;&#105;&#115;&#64;&#x62;&#117;&#109;&#x62;&#108;&#x65;&#x68;&#101;&#x61;&#x64;&#46;&#99;&#x6f;&#x6d;">&#99;&#104;&#x72;&#105;&#115;&#64;&#x62;&#117;&#109;&#x62;&#108;&#x65;&#x68;&#101;&#x61;&#x64;&#46;&#99;&#x6f;&#x6d;</a></p>\n<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &#39;Software&#39;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>\n<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>\n<p>THE SOFTWARE IS PROVIDED &#39;AS IS&#39;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>\n</body></html>',
+79 silly publish   bugs: { url: 'https://github.com/iambumblehead/listener/issues' },
+79 silly publish   _id: 'listener@0.0.2',
+79 silly publish   dist: { shasum: 'c5886d3187e23016711bbff65d0015e1f5b46e75' },
+79 silly publish   _from: '.' }
+80 verbose url raw listener
+81 verbose url resolving [ 'https://registry.npmjs.org/', './listener' ]
+82 verbose url resolved https://registry.npmjs.org/listener
+83 info trying registry request attempt 1 at 22:50:48
+84 http PUT https://registry.npmjs.org/listener
+85 http 409 https://registry.npmjs.org/listener
+86 verbose url raw listener
+87 verbose url resolving [ 'https://registry.npmjs.org/', './listener' ]
+88 verbose url resolved https://registry.npmjs.org/listener
+89 info trying registry request attempt 1 at 22:50:49
+90 http GET https://registry.npmjs.org/listener
+91 http 200 https://registry.npmjs.org/listener
+92 verbose uploading [ 'listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee',
+92 verbose uploading   '/home/duko/.npm/listener/0.0.2/package.tgz' ]
+93 verbose url raw listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee
+94 verbose url resolving [ 'https://registry.npmjs.org/',
+94 verbose url resolving   './listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee' ]
+95 verbose url resolved https://registry.npmjs.org/listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee
+96 info trying registry request attempt 1 at 22:50:49
+97 http PUT https://registry.npmjs.org/listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee
+98 http 403 https://registry.npmjs.org/listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee
+99 info trying registry request attempt 1 at 22:50:50
+100 http PUT https://registry.npmjs.org/listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee
+101 http 403 https://registry.npmjs.org/listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee
+102 error publish Error uploading package
+103 error Error: forbidden user: bumblehead not authorized to modify listener
+103 error Added: _attachments.listener-0.0.2.tgz: listener/-/listener-0.0.2.tgz/-rev/5-02b5858d36aa99dcc5fc03c9274c94ee
+103 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+103 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/index.js:148:22)
+103 error     at Request.EventEmitter.emit (events.js:98:17)
+103 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:876:14)
+103 error     at Request.EventEmitter.emit (events.js:117:20)
+103 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:827:12)
+103 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+103 error     at _stream_readable.js:910:16
+103 error     at process._tickCallback (node.js:415:13)
+104 error If you need help, you may report this log at:
+104 error     <http://github.com/isaacs/npm/issues>
+104 error or email it to:
+104 error     <npm-@googlegroups.com>
+105 error System Linux 3.11.0-14-generic
+106 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+107 error cwd /home/duko/Software/listen
+108 error node -v v0.10.15
+109 error npm -v 1.3.5
+110 verbose exit [ 1, true ]
