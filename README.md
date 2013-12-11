@@ -6,7 +6,7 @@ lsn
 
 Add and remove listener events on elements in the document.
 
- - lsn.add( _elem_, _event_, _fn_ );
+ - lsn( _elem_, _event_, _fn_ );
  - lsn.rm( _elem_, _event_, _fn_ );
 
 ---------------------------------------------------------------------

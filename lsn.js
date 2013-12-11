@@ -1,13 +1,13 @@
 // Filename: lsn.js
-// Timestamp: 2013.12.09-22:56:11 (last modified)  
+// Timestamp: 2013.12.10-23:22:28 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)
 
-var lsn = (function (de, deffn) {
+var lsn = (function (de, deffn, o, p) {
 
   de = document.documentElement;
   deffn = function () {};
 
-  return {
+  o = {
     add : (function (fn) {
       if (typeof de.addEventListener === 'function') {
         fn = function (el, e, fn) {
@@ -36,6 +36,11 @@ var lsn = (function (de, deffn) {
       return fn || deffn;
     }())
   };
+
+  p = o.add;
+  p.rm = o.rm;
+
+  return p;
 }());
 
 
