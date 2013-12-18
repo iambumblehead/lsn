@@ -14,7 +14,7 @@ Add and remove listener events on elements in the document.
 
 Research reveals problems with all listener-wrapper scripts available on the internet. None of them are perfect. [The script demonstrated on msdn here][1] is the best one I've seen. The 'terms and conditions' around msdn's sample code, however, are prohibitive and the author has not released a public version of the samples.
 
-[David Mark][4] owns [the best host method][2] checking techniques. This is his: `/^(?:function|object|unknown)$/.test(typeof object[methodname])`. I don't want to steal from David Mark so I don't feel OK using that to find if `addEventListener` is a method on a `document.documentElement`.
+[David Mark][4] owns [the best host method][2] checking techniques. This is his: `/^(?:function|object|unknown)$/.test(typeof object[methodname])`. I wanted to avoid using it but there's no other reliable technique for finding if attachEvent is available on document.documentElement. typeof document.documentElement.attachEvent returns object or function in different JScript environments.
 
 One might consider using DOM0 'onclick'-style event listeners exclusively but not when seeing that it is **dramtically slow** [compared to addEventListener][2]. Who wants slow response times for click events? not me.
 
