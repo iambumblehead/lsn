@@ -1,15 +1,15 @@
 // Filename: lsn.js
-// Timestamp: 2013.12.18-10:52:52 (last modified)  
+// Timestamp: 2014.04.05-17:03:14 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)
 
 var lsn = (function (de, deffn, o, p) {
 
-  de = document.documentElement;
-  deffn = function () {};
-
   function isMethod (o) {
     return /^(?:function|object|unknown)$/.test(typeof o) ? true : false;
   }
+
+  de = typeof document === 'undefined' || document.documentElement;
+  deffn = function () {};
 
   o = {
     add : (function (fn) {
