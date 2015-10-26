@@ -17,7 +17,7 @@ var lsn = (function (de, deffn, o, p) {
         fn = function (el, e, fn) {
           el.addEventListener(e, fn, false);
         };
-      } else if (isMethod(de.addatchEvent)) {
+      } else if (isMethod(de.attachEvent)) {
         fn = function (el, e, fn) {
           el.attachEvent('on'+e, function (e) {
             fn(e || window.event);
