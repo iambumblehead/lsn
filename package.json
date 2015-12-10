@@ -1,7 +1,7 @@
 {
   "name": "lsn",
   "main": "lsn",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "readmeFilename": "README.md",
   "license" : "MIT",
   "description": "Add and remove listener events on elements in the document.",
