@@ -2,7 +2,7 @@
 // Timestamp: 2014.04.05-17:03:14 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)
 
-var lsn = (function (de, deffn, o, p) {
+var lsn = module.exports = (function (de, deffn, o, p) {
 
   function isMethod (o) {
     return /^(?:function|object|unknown)$/.test(typeof o) ? true : false;
